@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Bonic Reading",
+  "version": "0.0.1",
+  "description": "B...onic Reading",
+  "content_scripts": [{
+    "js": ["src/index.js"],
+    "matches": ["https://*/*"]
+  }]
+}
