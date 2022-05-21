@@ -3,8 +3,16 @@
   "name": "Bonic Reading",
   "version": "0.0.1",
   "description": "B...onic Reading",
+  "icons": {
+    "48": "icons/eye-48.png",
+    "128": "icons/eye-128.png"
+  },
   "content_scripts": [{
     "js": ["src/index.js"],
     "matches": ["https://*/*"]
-  }]
+  }],
+  "action": {
+    "default_popup": "menu/index.html",
+    "default_title": "Bonic Reading"
+  }
 }
